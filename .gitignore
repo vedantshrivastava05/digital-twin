@@ -1,0 +1,28 @@
+node_modules/
+dist/
+.vite/
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+*.db
+*.log
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+backend/uploads/
+
+# Local snapshots and source media are not required to run the app.
+_backup/
+*.mp4
+/simple_factory_scene.glb
+
+# Large 3D model source files (kept locally as backup; app uses the optimized .glb)
+model-sources/
+
+# Separate third-party tool checkout; not part of this application repository.
+tools/img2threejs/
